@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  background: #2C2B3D;
+  min-width: 100vw;
+  
+  color: #FFFFFF;
+  font-family: 'JetBrains Mono', monospace;
+}
+a{
+  color: #FFFFFF;
+  transition: 0.6s;
+}
+a:hover{
+  color: #00BFA6;
+}
+
+#page{
+  width: 1100px;
+  margin: 71px auto 0;
+}
+
+nav{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo{
+  height: 24px;
+  transition: all 0.6s ease-out;
+}
+#logo:hover{
+  height: 26px;
+}
+
+#menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+main{
+  margin: 101px auto 157px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bodyText{
+  width: 614px;
+}
+#bodyText .greenAqua{
+  color: #00BFA6;
+}
+h1{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+#bodyText p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #C2C2C2;
+  
+  margin: 59px 0 0 0;
+  width: 604px;
+
+  text-align: center;
+}
+
+footer{
+  width: 568px;
+
+  margin: 0 auto;
+  padding-top: 27px;
+
+  border-top: 1px solid #00BFA6;
+
+  text-align: center;
+}
+
+#padLock{
+  position:fixed;
+  left: 20px;
+  bottom: 20px;
+}
